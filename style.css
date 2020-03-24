@@ -1,0 +1,29 @@
+.gallery {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+
+.galleryItem {
+  display: block;
+  max-width: 100%;
+}
+
+.betweenTask {
+  margin: 20px 0;
+  color: red;
+  font-weight: 600;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+ }
+  
+ #validation-input.valid {
+   border-color: #4caf50;
+ }
+  
+ #validation-input.invalid {
+   border-color: #f44336;
+ }
